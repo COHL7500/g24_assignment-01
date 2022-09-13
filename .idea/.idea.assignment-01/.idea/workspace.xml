@@ -4,9 +4,8 @@
     <projectFile>Program/Program.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74b851bb-e753-49e1-89b5-6ea42087b46b" name="Changes" comment="">
+    <list default="true" id="74b851bb-e753-49e1-89b5-6ea42087b46b" name="Changes" comment="Implement Flatten">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.assignment-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.assignment-01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1.Tests/Assignment1.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1.Tests/Assignment1.Tests.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment1.Tests/IteratorsTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1.Tests/IteratorsTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment1/Iterators.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/Iterators.cs" afterDir="false" />
     </list>
@@ -65,8 +64,16 @@
       <option name="presentableId" value="Default" />
       <updated>1662721546575</updated>
       <workItem from="1662721551272" duration="2862000" />
-      <workItem from="1663064300617" duration="2089000" />
+      <workItem from="1663064300617" duration="3380000" />
     </task>
+    <task id="LOCAL-00001" summary="Implement Flatten">
+      <created>1663066938060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663066938060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Implement Flatten" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Flatten" />
   </component>
 </project>
