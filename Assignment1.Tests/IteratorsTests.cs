@@ -36,7 +36,6 @@ public class IteratorsTests
         
         // Assert
         Assert.Equal(expected, lasagne);
-
     }
 
 }
