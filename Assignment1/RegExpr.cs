@@ -18,7 +18,19 @@ public static class RegExpr
         }
     }
 
-    public static IEnumerable<(int width, int height)> Resolution(string resolutions) => throw new NotImplementedException();
+    public static IEnumerable<(int width, int height)> Resolution(string resolutions)
+    {
+        string splitOn = @"[\s,]";
+        string[] splitted = Regex.Split(resolutions, splitOn);
+
+        foreach (var tuple in splitted)
+        {
+            string splitOnX = @"[a-z]";
+            string[] output = Regex.Split(tuple, splitOnX);
+
+            yield return output;
+        }
+    }
 
     public static IEnumerable<string> InnerText(string html, string tag) => throw new NotImplementedException();
 }

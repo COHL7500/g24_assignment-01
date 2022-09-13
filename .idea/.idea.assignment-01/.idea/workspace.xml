@@ -4,10 +4,8 @@
     <projectFile>Program/Program.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74b851bb-e753-49e1-89b5-6ea42087b46b" name="Changes" comment="Implement Filter">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.assignment-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.assignment-01/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="74b851bb-e753-49e1-89b5-6ea42087b46b" name="Changes" comment="Implement SplitLine">
       <change beforePath="$PROJECT_DIR$/Assignment1.Tests/RegExprTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1.Tests/RegExprTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/RegExpr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/RegExpr.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662721546575</updated>
       <workItem from="1662721551272" duration="2862000" />
-      <workItem from="1663064300617" duration="5190000" />
+      <workItem from="1663064300617" duration="5906000" />
     </task>
     <task id="LOCAL-00001" summary="Implement Flatten">
       <created>1663066938060</created>
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663068180935</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement SplitLine">
+      <created>1663069894997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663069894997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +109,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Implement Flatten" />
     <MESSAGE value="Implement Filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Filter" />
+    <MESSAGE value="Implement SplitLine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement SplitLine" />
   </component>
 </project>
