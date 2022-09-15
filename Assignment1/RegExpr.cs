@@ -29,5 +29,14 @@ public static class RegExpr
         }
     }
 
-    public static IEnumerable<string> InnerText(string html, string tag) => throw new NotImplementedException();  
+    public static IEnumerable<string> InnerText(string html, string tag)
+    {
+        foreach(Match match in Regex.Matches(html, $@"(?<tag><{tag}[\w\s\d_()\-:\/"":,.=]*>)(?<inner>.*?)(<\/{tag}>)"))
+        {
+            yield return Regex.Replace(match.Groups["inner"]
+                .Value, "<.*?>", "");
+        }
+    }
+    
+    
 }

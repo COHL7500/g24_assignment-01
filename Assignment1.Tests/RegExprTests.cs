@@ -41,4 +41,25 @@ public class RegExprTests
         Assert.Equal(expected, pizza);
     }
 
+    [Fact]
+    static void InnerText_returns_text_of_given_HTML_tags()
+    {
+        // Arrange
+
+        string input_innertext = "<div><p>A <b>regular expression</b>, <b>regex</b> or <b>regexp</b> (sometimes called a <b>rational expression</b>) is, in <a href=\"https://en.wikipedia.org/wiki/Theoretical_computer_science\" title=\"Theoretical computer science\">theoretical computer science</a> and <a href=\"https://en.wikipedia.org/wiki/Formal_language\" title=\"Formal language\">formal language</a> theory, a sequence of <a href=\"https://en.wikipedia.org/wiki/Character_(computing)\" title=\"Character (computing)\">characters</a> that define a <i>search <a href=\"https://en.wikipedia.org/wiki/Pattern_matching\" title=\"Pattern matching\">pattern</a></i>. Usually this pattern is then used by <a href=\"https://en.wikipedia.org/wiki/String_searching_algorithm\" title=\"String searching algorithm\">string searching algorithms</a> for \"find\" or \"find and replace\" operations on <a href=\"https://en.wikipedia.org/wiki/String_(computer_science)\" title=\"String (computer science)\">strings</a>.</p></div>";
+        string input_tag = "a";
+        string[] expected =
+        {
+            "theoretical computer science", "formal language", "characters", "pattern",
+            "string searching algorithms", "strings"
+        };
+        
+        // Act 
+
+        var tiramisu = RegExpr.InnerText(input_innertext, input_tag);
+
+        // Assert
+        Assert.Equal(expected, tiramisu);
+    }
+
 }
