@@ -85,4 +85,24 @@ public class RegExprTests
         Assert.Equal(expected, tiramisu);
     }
 
+    [Fact]
+    static void InnerText_returns_all_of_p_tag()
+    {
+        // Arrange
+
+        string input_innertext =
+            "<div><p>The phrase <i>regular expressions</i> (and consequently, regexes) is often used to mean the specific, standard textual syntax for representing <u>patterns</u> that matching <em>text</em> need to conform to.</p></div>";
+        
+        string[] expected =
+        {
+            "The phrase regular expressions (and consequently, regexes) is often used to mean the specific, standard textual syntax for representing patterns that matching text need to conform to."
+        };
+
+        // Act 
+        var fiskefrikadelle = RegExpr.InnerText(input_innertext, "p").ToArray();
+
+        // Assert
+        Assert.Equal(expected[0], fiskefrikadelle[0]);
+    }
+
 }
