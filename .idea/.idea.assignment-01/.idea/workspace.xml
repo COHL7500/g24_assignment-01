@@ -4,8 +4,8 @@
     <projectFile>Program/Program.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74b851bb-e753-49e1-89b5-6ea42087b46b" name="Changes" comment="Implement SplitLine">
-      <change beforePath="$PROJECT_DIR$/Assignment1.Tests/RegExprTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1.Tests/RegExprTests.cs" afterDir="false" />
+    <list default="true" id="74b851bb-e753-49e1-89b5-6ea42087b46b" name="Changes" comment="RegExpr Fix Halfway">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.assignment-01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.assignment-01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/bastjansejberg/Library/CloudStorage/OneDrive-ITU/BSc-Semester-3/BDSA/Assignment/g24_assignment-01/Assignment1/Iterators.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/bastjansejberg/Library/CloudStorage/OneDrive-ITU/BSc-Semester-3/BDSA/Assignment/g24_assignment-01/Assignment1/RegExpr.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662721546575</updated>
       <workItem from="1662721551272" duration="2862000" />
-      <workItem from="1663064300617" duration="5906000" />
+      <workItem from="1663064300617" duration="10298000" />
     </task>
     <task id="LOCAL-00001" summary="Implement Flatten">
       <created>1663066938060</created>
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663069894997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RegExpr Fix Halfway">
+      <created>1663070708371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663070708371</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +118,7 @@
     <MESSAGE value="Implement Flatten" />
     <MESSAGE value="Implement Filter" />
     <MESSAGE value="Implement SplitLine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement SplitLine" />
+    <MESSAGE value="RegExpr Fix Halfway" />
+    <option name="LAST_COMMIT_MESSAGE" value="RegExpr Fix Halfway" />
   </component>
 </project>

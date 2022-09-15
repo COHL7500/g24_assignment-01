@@ -20,17 +20,14 @@ public static class RegExpr
 
     public static IEnumerable<(int width, int height)> Resolution(string resolutions)
     {
-        string splitOn = @"[\s,]";
+        string splitOn = @"[\s,a-z]";
         string[] splitted = Regex.Split(resolutions, splitOn);
 
-        foreach (var tuple in splitted)
+        for (int i = 0; i < splitted.Length; i += 3)
         {
-            string splitOnX = @"[a-z]";
-            string[] output = Regex.Split(tuple, splitOnX);
-
-            yield return output;
+            yield return (int.Parse(splitted[i]), int.Parse(splitted[i + 1]));
         }
     }
 
-    public static IEnumerable<string> InnerText(string html, string tag) => throw new NotImplementedException();
+    public static IEnumerable<string> InnerText(string html, string tag) => throw new NotImplementedException();  
 }
